@@ -1,0 +1,25 @@
+.container {
+    grid-template-areas: 
+      "hd hd hd"
+      "sd main main"
+      "sd ft ft";
+    grid-template-columns: 400px 1fr 1fr;
+    grid-template-rows: repeat(1fr, 3);
+}
+
+.blog-header {
+    grid-area: hd;
+}
+
+.blog-main {
+    grid-area: main;
+}
+.blog-footer {
+    grid-area: ft;
+}
+
+.blog-main {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
