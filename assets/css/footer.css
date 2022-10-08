@@ -1,0 +1,22 @@
+.blog-footer {
+    padding: 5em 0 1em 0;
+    background-image: linear-gradient(45deg, blue,greenyellow);
+}
+
+.blog-footer li {
+    list-style-type: none;
+}
+
+.blog-footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.blog-footer nav {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.blog-stars {
+    text-align: right;
+}

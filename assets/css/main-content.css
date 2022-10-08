@@ -1,0 +1,20 @@
+.blog-post-card {
+    padding: 15px 10px 10px 10px;
+    box-shadow: 13px 61px 69px 0px rgba(65,101,122,0.52) inset;
+}
+
+.blog-post-card header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-photo {
+    text-align: center;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.main-header {
+    display: inline;
+}
+
