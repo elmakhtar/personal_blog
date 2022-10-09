@@ -1,18 +1,33 @@
 *,
 ::after,
 ::before {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 } 
 
-body {
-  font-family: "Raleway", sans-serif;
+body
+{
+    font-family: serif, sans-serif, monospace;
+    font-size: 20px;
+    color: black;
 }
-
-.fa-star-is-active {
-    color: blue;
+li a {
+    color: #ffffff;
 }
 
 .container {
     display:grid;
+}
+
+.blog-nav {
+    display: none;
+}
+
+.degrade {
+    background-image: linear-gradient(45deg, #aa9fc1,#4d475b);
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
 }

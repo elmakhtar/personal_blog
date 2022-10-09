@@ -1,5 +1,1 @@
-@import "common.css";
-@import "header.css";
-@import "main-content.css";
-@import "footer.css";
-@import "desktop.css" all and (min-width: 992px);
+@import "home.css";

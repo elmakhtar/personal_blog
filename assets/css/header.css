@@ -3,13 +3,10 @@
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
-    border-radius: 5px;
-    padding: 5px;
+    padding: 10px 0 10px 0; 
     justify-content: center;
-    color: #ffffff;
-    background-image: linear-gradient(45deg, blue,greenyellow);
+    z-index: 2;
 }
-
 .blog-header li {
     display: inline-flex;
     box-shadow: 10px 10px 90px 0px rgba(122,65,65,0.75);
@@ -21,7 +18,6 @@
 .blog-header li:hover {
     background-color: #0049ff6e;
     border: 2px dashed;
-
 }
 
 .blog-header nav {
@@ -33,9 +29,5 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-}
-.blog-header a {
-    text-decoration: none;
-    color: #ffffff;
 }
 

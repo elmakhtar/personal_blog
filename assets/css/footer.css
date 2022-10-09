@@ -1,6 +1,6 @@
 .blog-footer {
     padding: 5em 0 1em 0;
-    background-image: linear-gradient(45deg, blue,greenyellow);
+    margin-top: 5px;
 }
 
 .blog-footer li {
@@ -10,6 +10,7 @@
 .blog-footer a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 25px;
 }
 .blog-footer nav {
     display: inline-flex;
@@ -19,4 +20,8 @@
 
 .blog-stars {
     text-align: right;
+}
+
+.blog-post-card footer {
+    margin-top: 15px;
 }
