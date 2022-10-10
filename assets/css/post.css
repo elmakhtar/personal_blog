@@ -78,3 +78,7 @@
 .social li{
     display: inline;
 }
+
+.social {
+    max-width: 50%;
+}

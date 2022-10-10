@@ -56,12 +56,12 @@ img .social {
     height: 24px;
 }
 
-legend {
+figcaption {
     text-align: center;
     font-style: oblique;
 }
 
-button {
+.link-post {
     color: #ffffff;
     background-image: linear-gradient(45deg, #051744,#0049ff);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
