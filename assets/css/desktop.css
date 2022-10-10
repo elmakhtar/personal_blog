@@ -24,12 +24,14 @@
     text-align: center;
     line-height: 50px;
 }
+
 .blog-nav li {
     border: 1px solid #ffffff;
     border-radius: 5px;
     margin: 10px;
     list-style: none;
 }
+
 .blog-nav li:hover {
     border: 1px dashed #ffffff;
     background-color: #aa9fc1;
@@ -39,15 +41,14 @@
 .blog-main {
     grid-area: main;
 }
+
 .blog-footer {
     grid-area: ft;
 }
+
 .blog-posts {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
-.blog-main h1 {
-    text-align: center;
-    margin: 30px;
-}
+

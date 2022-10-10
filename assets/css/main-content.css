@@ -12,11 +12,15 @@
 
 .main-header {
     display: inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 .blog-post-content p {
     text-align: justify;
     text-justify: inter-word;
 }
+
 .blog-photo {
     margin: 15px;
 }
@@ -29,4 +33,9 @@
 
 header h2 {
     color: blue;
+}
+
+.blog-main h1 {
+    text-align: center;
+    margin: 30px;
 }
