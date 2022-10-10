@@ -52,3 +52,11 @@
     grid-gap: 10px;
 }
 
+.post-main {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.post-autor-info span {
+    font-size: 20px !important;
+}

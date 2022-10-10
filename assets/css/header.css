@@ -11,7 +11,7 @@
 .blog-header li {
     display: inline-flex;
     box-shadow: 10px 10px 90px 0px rgba(122,65,65,0.75);
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
     border: 2px solid;
 }
